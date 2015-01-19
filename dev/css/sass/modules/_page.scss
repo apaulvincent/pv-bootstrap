@@ -1,0 +1,68 @@
+body {
+	font-family: $f_main;
+	font-weight: 500;
+}
+
+p{
+	font-family: $f_body;
+    font-size: em(12px);
+	font-weight: 500;
+    color: $c_mllgray;
+    margin: 5px 0;
+}
+
+// Fadein Entrance
+.content-wrap, .header, .sidenav {
+
+	@include opacity(0);
+}
+
+.content {
+	position: relative;
+	background: $c_llgray;
+}
+
+.content-wrap {
+	margin-left: em(90px);
+	overflow: hidden;
+	height: 100%;
+}
+
+.main-content {
+	display: table;
+	width: 100%;
+	height: 100%;
+
+	.left-content {
+		display: table-cell;
+		vertical-align: top;
+		height: 100%;
+	}
+
+	.right-content {
+		display: table-cell;
+		vertical-align: top;
+		width: 30%;
+		background: #fff;
+	}
+
+}
+
+.main-area {
+	overflow: auto;
+	height: 100%;
+
+	.section {
+		padding: 0;
+
+		.inner {
+			margin: 0 30px;
+		}
+
+		.row {
+			margin-bottom: 15px;
+		}
+	}
+	
+
+}

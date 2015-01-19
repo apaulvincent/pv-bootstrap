@@ -1,0 +1,32 @@
+// ======================================================================
+   // Vars
+// ======================================================================
+
+
+$sprite2x: sprite-map("../img/utils@2x/*.png", $spacing: 8px, $repeat: no-repeat); 
+
+$sprite: sprite-map("../img/utils/*.png", $spacing: 4px, $repeat: no-repeat); // path relative to main.css
+
+$base-font-size: 16px;
+
+// color
+$c-black: #0c0e10;
+
+$c_gray: #2d3039; 
+$c_mgray: #5a5e6a; 
+$c_lgray: #f1f1f1; 
+$c_mllgray: #999999; 
+$c_llgray: #ececec; 
+
+$c_orange: #eb780e; 
+
+$c_blue: #0466af; 
+$c_lblue: #0888e8; 
+$c_dblue: #0c558c; 
+
+
+// fonts
+$f_main: 'Raleway', sans-serif;
+$f_body: Arial, sans-serif;
+
+

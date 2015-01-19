@@ -1,0 +1,11 @@
+.header {
+	padding: 0 40px;
+	border: 1px solid $c_lgray;
+
+	@extend %clearfix;
+
+	.logo {
+		float: left;
+	}
+
+}
